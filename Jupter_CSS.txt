@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.CodeMirror-line::selection,
+.CodeMirror-line > span::selection,
+.CodeMirror-line > span > span::selection {
+  background-color: #698269 !important;
+}
+
+.header-bar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #b3c99c;
+}
+
+#header-container img {
+  display: none;
+}
+
+.dataframe {
+  background-color: #000;
+}
+
+td {
+  background-color: #000;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+th {
+  background-color: #000;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+*::selection {
+  background-color: #698269 !important;
+  color: #fff !important;
+}
+
+pre::selection {
+  background-color: #698269 !important;
+  color: #fff !important;
+}
+
+span::selection {
+  background-color: #698269 !important;
+  color: #fff !important;
+}
+
+option {
+  color: #b46060;
+}
+
+#notebook_name {
+  margin-left: 0px !important;
+}
+
+#header-container {
+  padding-left: 0px !important;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace !important;
+}
+
+#header {
+  background-color: #212121 !important;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.navbar-collapse {
+  background-color: #212121 !important;
+  color: #fff;
+  border: none !important;
+}
+
+#menus {
+  border: none !important;
+  color: white !important;
+}
+
+#menus .dropdown-toggle {
+  color: white !important;
+}
+
+#filelink {
+  color: white !important;
+  text-align: centerimportant;
+  padding-left: 7px;
+  text-decoration: none !important;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #191919 !important;
+  color: #eee !important;
+  text-align: left !important;
+}
+
+.dropdown-menu,
+.dropdown-menu a,
+.dropdown-submenu a {
+  background-color: #191919;
+  color: #fff !important;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu > a:after {
+  background-color: #212121;
+  color: #fff !important;
+}
+
+p {
+  color: #fff;
+}
+
+li {
+  color: #fff;
+}
+
+.btn-default {
+  color: #fff !important;
+  background-color: #212121 !important;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.dropdown {
+  text-align: left !important;
+}
+
+.form-control.select-xs {
+  background-color: #191919 !important;
+  color: #eee !important;
+  border: none;
+  outline: none;
+}
+
+#modal_indicator {
+  display: none;
+}
+
+.kernel_indicator_name {
+  color: #fff !important;
+}
+
+#notification_trusted,
+#notification_notebook {
+  background-color: #212121;
+  color: #eee !important;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+#logout {
+  background-color: #191919;
+  color: #eee;
+}
+
+#maintoolbar-container {
+  padding-top: 0px !important;
+}
+
+.toolbar-btn-label {
+  font-size: 13px;
+}
+
+.notebook_app {
+  background-color: #222222;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#notebook-container {
+  background-color: #212121;
+}
+
+div.cell.selected,
+div.cell.selected.jupyter-soft-selected {
+  border: none !important;
+}
+
+.cm-keyword {
+  color: #f2921d !important;
+}
+
+.input_area {
+  background-color: #212121 !important;
+  color: #cb1c8d !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.cm-def {
+  color: #5bc0de !important;
+}
+
+.cm-variable {
+  color: #e5ba73 !important;
+}
+
+.cm-property {
+  color: #e96479;
+}
+
+.output_subarea.output_text.output_result pre,
+.output_subarea.output_text.output_stream.output_stdout pre {
+  color: #fff !important;
+  background-color: #000;
+}
+
+.CodeMirror-line {
+  color: #cb1c8d !important;
+}
+
+.cm-operator {
+  color: #cb1c8d !important;
+}
+
+.cm-number {
+  color: #0081b4 !important;
+}
+
+.inner_cell {
+  border: 1px thin #cb1c8d;
+  border-radius: 50px !important;
+}
+
+.CodeMirror-lines {
+  border-radius: 20px;
+}
+
+.CodeMirror-lines::selection {
+  background-color: #698269 !important;
+  color: #fff !important;
+}
+
+.prompt.input_prompt {
+  font-family: "Source Code Pro", monospace !important;
+  font-weight: 900;
+  color: #5cb85c !important;
+}
+
+.prompt.output_prompt {
+  font-family: "Source Code Pro", monospace !important;
+  font-weight: 900;
+  color: #009fbd;
+}
+
+.cm-comment {
+  color: #61876e !important;
+}
+
+.cm-string {
+  color: #0ea293 !important;
+}
+
+.cm-builtin {
+  color: #f0ad4e !important;
+}
+
+.run_this_cell {
+  color: lightblue !important;
+}
+
+.input_area {
+  border-radius: 20px;
+}
+
+.output_png {
+  background-color: white;
+}
+
+.CodeMirror-cursor {
+  border-left: 1.4px solid white;
+}
+
+.box-flex1.output_subarea.raw_input_container {
+  color: white;
+  background-color: #000;
+}
+
+input.raw_input {
+  color: black !important;
+}
+
+div.output_area pre {
+  color: white;
+  background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white !important;
+  font-weight: bolder !important;
+}
+
+.CodeMirror-gutter.CodeMirror-linenumber,
+.CodeMirror-gutters {
+  background-color: #212121 !important;
+}
+
+span.filename:hover {
+  color: #191919 !important;
+  height: auto !important;
+}
+
+#site {
+  background-color: #191919 !important;
+  color: white !important;
+}
+
+#tabs li.active a {
+  background-color: #212121 !important;
+  color: white !important;
+}
+
+#tabs li {
+  background-color: #191919 !important;
+  color: white !important;
+  border-top: 1px thin #eee;
+}
+
+#notebook_list_header {
+  background-color: #212121 !important;
+  color: white !important;
+}
+
+#running .panel-group .panel {
+  background-color: #212121 !important;
+  color: white !important;
+}
+
+#accordion.panel-heading {
+  background-color: #212121 !important;
+}
+
+#running .panel-group .panel .panel-heading {
+  background-color: #212121;
+  color: white;
+}
+
+.item_name {
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.list_item:hover {
+  background-color: #212121 !important;
+}
+
+.item_icon.icon-fixed-width {
+  color: white !important;
+}
+
+#texteditor-backdrop {
+  background-color: #191919 !important;
+  border-top: 1px solid #eee;
+}
+
+.CodeMirror {
+  background-color: #212121 !important;
+}
+
+.CodeMirror::selection {
+  background-color: #698269 !important;
+}
+
+.CodeMirror-code::selection {
+  background-color: #698269 !important;
+  color: #fff;
+}
+
+#texteditor-backdrop #texteditor-container .CodeMirror-gutter,
+#texteditor-backdrop #texteditor-container .CodeMirror-gutters {
+  background-color: #212121 !important;
+}
+
+.celltoolbar {
+  background-color: #212121 !important;
+  border: none !important;
+}
+
+div.output_stderr {
+  background-color: #000 !important;
+}
+
+.modal-content {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  background-color: #000;
+}
+
+.close {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
